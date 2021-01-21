@@ -30,7 +30,9 @@ Changes:
   (``---- BEGIN SSH2 PUBLIC KEY ----``).
   as defined in `RFC4716 <https://tools.ietf.org/html/rfc4716>`_.
   `#46 <https://github.com/hynek/pem/pull/46>`_
-
+- Add support for DSA private keys.
+  This is also the OpenSSH legacy PEM format
+  (BEGIN DSA PRIVATE).
 
 ----
 
